@@ -25,7 +25,7 @@ public class App implements RequestHandler<APIGatewayProxyRequestEvent, APIGatew
         log.info("isso ai, amigao");
         APIGatewayProxyResponseEvent response = new APIGatewayProxyResponseEvent();
         String output = """
-                { "message": "new hello world, testandooo", "location": "%s" }
+                { "message": "new hello world, testandooo" }
                 """;
 
         return response
