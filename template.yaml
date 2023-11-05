@@ -20,16 +20,6 @@ Resources:
       Handler: br.com.fiap.soat1.t32.App::handleRequest
       Runtime: java17
       Tracing: Active
-      VpcConfig:
-        SecurityGroupIds:
-          - sg-0e22fa7129182ec6f
-        SubnetIds:
-          - subnet-0ddb6aabcac3d315e
-          - subnet-0866f9c5a5b55ed35
-          - subnet-0fd00268104a7ed9f
-          - subnet-029cc7be6eef7c184
-          - subnet-0c163a403e3527c69
-          - subnet-0e5bb367995388b78
       Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
         Variables:
           # Powertools for AWS Lambda (Java) env vars: https://awslabs.github.io/aws-lambda-powertools-java/#environment-variables
